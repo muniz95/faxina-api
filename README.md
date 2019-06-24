@@ -1,7 +1,24 @@
-A Node.js hot-loading solution for isomorphic (client and server share code) projects.  
-When changes are detected in the source files, bundles for client and server are automatically compiled, and the server module is loaded into the running node instance. The browser is then refreshed, if the changed files were pertinent to the client.
+# README
 
-Uses webpack, which runs in the same instance that hot-loads the compiled modules.  
-Express is used only for demonstration purposes.
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-Use `npm start` to test.
+Things you may want to cover:
+
+* Ruby version
+
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
