@@ -1,7 +1,7 @@
 require "capistrano/setup"
 require "capistrano/deploy"
 require "capistrano/scm/git"
-require 'capistrano/rails'
+require 'capistrano/rails/migrations'
 require 'capistrano/rvm'
 require 'capistrano/puma'
  
